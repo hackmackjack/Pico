@@ -1,0 +1,549 @@
+Problem-Solution Cross-Validation Report
+Total projects with issues: 138
+
+
+Project 0001 (1 issues):
+  - Problem requires 'on-board led (gp25 or wireless led)' but not found in Solution hardware list
+
+Project 0004 (1 issues):
+  - Problem requires 'red led, yellow led, green led' but not found in Solution hardware list
+
+Project 0005 (2 issues):
+  - Problem requires 'red led, green led' but not found in Solution hardware list
+  - Problem requires 'button a, button b' but not found in Solution hardware list
+
+Project 0007 (1 issues):
+  - Problem requires 'pushbutton' but not found in Solution hardware list
+
+Project 0012 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0015 (1 issues):
+  - Problem requires '2 buttons' but not found in Solution hardware list
+
+Project 0018 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0026 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0035 (2 issues):
+  - Problem requires 'button a, button b' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0037 (2 issues):
+  - Problem requires 'pir motion sensor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0039 (1 issues):
+  - Problem requires 'dc motor + driver' but not found in Solution hardware list
+
+Project 0040 (1 issues):
+  - Problem requires 'dc motor + driver' but not found in Solution hardware list
+
+Project 0041 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0042 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0048 (1 issues):
+  - Problem requires '3x yellow, 1x green leds' but not found in Solution hardware list
+
+Project 0049 (1 issues):
+  - Problem requires 'ultrasonic sensor' but not found in Solution hardware list
+
+Project 0050 (1 issues):
+  - Problem requires '2x traffic light modules (6 leds total)' but not found in Solution hardware list
+
+Project 0055 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0057 (3 issues):
+  - Problem requires 'ultrasonic sensor' but not found in Solution hardware list
+  - Problem requires 'rgb led (red)' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0062 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0063 (3 issues):
+  - Problem requires 'doorbell button' but not found in Solution hardware list
+  - Problem requires 'privacy switch' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0064 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0065 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0067 (1 issues):
+  - Problem requires 'reed switch + magnet' but not found in Solution hardware list
+
+Project 0069 (1 issues):
+  - Problem requires 'ultrasonic sensor' but not found in Solution hardware list
+
+Project 0070 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0076 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0077 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0078 (2 issues):
+  - Problem requires 'rgb led / multiple leds' but not found in Solution hardware list
+  - Problem requires 'matching buttons' but not found in Solution hardware list
+
+Project 0084 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0085 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0088 (1 issues):
+  - Problem requires 'button a (count), button b (enter)' but not found in Solution hardware list
+
+Project 0089 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0090 (1 issues):
+  - Problem requires '(virtual) or physical 7-segment display' but not found in Solution hardware list
+
+Project 0095 (2 issues):
+  - Problem requires '2 buttons (choice)' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0096 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0097 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0100 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0101 (1 issues):
+  - Problem requires 'rgb led (or neopixel)' but not found in Solution hardware list
+
+Project 0102 (1 issues):
+  - Problem requires 'rgb led' but not found in Solution hardware list
+
+Project 0103 (3 issues):
+  - Problem requires 'rgb led' but not found in Solution hardware list
+  - Problem requires 'button a, button b' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0104 (2 issues):
+  - Problem requires 'rgb led' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0105 (3 issues):
+  - Problem requires 'rgb led' but not found in Solution hardware list
+  - Problem requires 'potentiometer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0106 (3 issues):
+  - Problem requires 'rgb led' but not found in Solution hardware list
+  - Problem requires 'button' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0107 (2 issues):
+  - Problem requires 'rgb led' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0108 (3 issues):
+  - Problem requires 'rgb led' but not found in Solution hardware list
+  - Problem requires 'red button, green button, blue button' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0109 (3 issues):
+  - Problem requires 'rgb led' but not found in Solution hardware list
+  - Problem requires 'color sensor module' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0110 (2 issues):
+  - Problem requires 'rgb led' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0111 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0112 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0113 (3 issues):
+  - Problem requires 'button' but not found in Solution hardware list
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0114 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0115 (3 issues):
+  - Problem requires '2 buttons' but not found in Solution hardware list
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0116 (3 issues):
+  - Problem requires 'tilt sensor' but not found in Solution hardware list
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0117 (1 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+
+Project 0118 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0119 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0120 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0121 (2 issues):
+  - Problem requires '1 led' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0122 (2 issues):
+  - Problem requires '2 leds' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0123 (3 issues):
+  - Problem requires '2 buttons' but not found in Solution hardware list
+  - Problem requires '2 leds' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0124 (2 issues):
+  - Problem requires '4 leds' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0125 (2 issues):
+  - Problem requires '4 buttons' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0126 (3 issues):
+  - Problem requires '4 leds' but not found in Solution hardware list
+  - Problem requires 'button' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0127 (3 issues):
+  - Problem requires '4 leds' but not found in Solution hardware list
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0128 (2 issues):
+  - Problem requires '4 leds' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0129 (3 issues):
+  - Problem requires '4 leds' but not found in Solution hardware list
+  - Problem requires '2 buttons' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0130 (2 issues):
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0131 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0132 (1 issues):
+  - Problem requires '(ice or cold object)' but not found in Solution hardware list
+
+Project 0133 (2 issues):
+  - Problem requires 'button' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0134 (2 issues):
+  - Problem requires 'red/yellow/green leds' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0135 (1 issues):
+  - Problem requires 'button' but not found in Solution hardware list
+
+Project 0136 (2 issues):
+  - Problem requires 'led (fan simulator)' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0137 (3 issues):
+  - Problem requires 'temp sensor (dht11 usually faster response than internal)' but not found in Solution hardware list
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0138 (2 issues):
+  - Problem requires 'external temp sensor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0139 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0140 (2 issues):
+  - Problem requires '8 leds (or bar graph module)' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0141 (2 issues):
+  - Problem requires 'fan motor + driver' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0142 (2 issues):
+  - Problem requires 'fan motor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0143 (3 issues):
+  - Problem requires 'slide switch' but not found in Solution hardware list
+  - Problem requires 'fan motor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0144 (2 issues):
+  - Problem requires 'fan motor (pwm)' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0145 (3 issues):
+  - Problem requires 'sound sensor' but not found in Solution hardware list
+  - Problem requires 'fan motor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0146 (3 issues):
+  - Problem requires 'temp sensor' but not found in Solution hardware list
+  - Problem requires 'fan motor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0147 (4 issues):
+  - Problem requires 'red led' but not found in Solution hardware list
+  - Problem requires 'button (error sim)' but not found in Solution hardware list
+  - Problem requires 'fan motor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0148 (3 issues):
+  - Problem requires 'fan (strong enough)' but not found in Solution hardware list
+  - Problem requires 'potentiometer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0149 (2 issues):
+  - Problem requires 'fan motor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0150 (3 issues):
+  - Problem requires 'temp sensor' but not found in Solution hardware list
+  - Problem requires 'fan motor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0151 (2 issues):
+  - Problem requires 'servo motor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0152 (2 issues):
+  - Problem requires 'servo motor' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0153 (2 issues):
+  - Problem requires 'potentiometer' but not found in Solution hardware list
+  - Problem requires 'servo motor' but not found in Solution hardware list
+
+Project 0154 (2 issues):
+  - Problem requires '2 servos' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0155 (3 issues):
+  - Problem requires '2 buttons' but not found in Solution hardware list
+  - Problem requires 'servo' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0156 (3 issues):
+  - Problem requires 'servo' but not found in Solution hardware list
+  - Problem requires '2 ldrs' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0157 (3 issues):
+  - Problem requires 'ultrasonic sensor' but not found in Solution hardware list
+  - Problem requires 'servo' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0158 (3 issues):
+  - Problem requires 'servo' but not found in Solution hardware list
+  - Problem requires 'button' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0159 (2 issues):
+  - Problem requires '2 servos (x / y)' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0160 (3 issues):
+  - Problem requires 'button (record)' but not found in Solution hardware list
+  - Problem requires 'servo (output)' but not found in Solution hardware list
+  - Problem requires 'potentiometer (input)' but not found in Solution hardware list
+
+Project 0161 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0162 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0163 (3 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Problem requires '2 potentiometers' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0164 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0165 (3 issues):
+  - Problem requires '2 buttons' but not found in Solution hardware list
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0166 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0167 (3 issues):
+  - Problem requires 'button' but not found in Solution hardware list
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0168 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0169 (3 issues):
+  - Problem requires 'accelerometer/tilt' but not found in Solution hardware list
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0170 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0171 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0172 (2 issues):
+  - Problem requires 'led' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0173 (2 issues):
+  - Problem requires '2 buttons' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0174 (3 issues):
+  - Problem requires 'led' but not found in Solution hardware list
+  - Problem requires 'button' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0175 (2 issues):
+  - Problem requires 'button' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0176 (2 issues):
+  - Problem requires 'start/stop button' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0177 (2 issues):
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0178 (2 issues):
+  - Problem requires 'button' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0179 (3 issues):
+  - Problem requires '2 ldrs (gates)' but not found in Solution hardware list
+  - Problem requires 'light sources (flashlights)' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0180 (2 issues):
+  - Problem requires 'oled display' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0181 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0182 (3 issues):
+  - Problem requires 'red led' but not found in Solution hardware list
+  - Problem requires 'button (dismiss)' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0183 (2 issues):
+  - Problem requires 'button a, button b' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0184 (2 issues):
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0185 (2 issues):
+  - Problem requires 'button' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0186 (2 issues):
+  - Problem requires 'ldr' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0187 (3 issues):
+  - Problem requires 'gas sensor (or button sim)' but not found in Solution hardware list
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0188 (2 issues):
+  - Problem requires 'buttons' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0189 (1 issues):
+  - Problem requires 'potentiometer' but not found in Solution hardware list
+
+Project 0190 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0191 (2 issues):
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0192 (3 issues):
+  - Problem requires 'led' but not found in Solution hardware list
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0193 (2 issues):
+  - Problem requires '2 buttons' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0194 (2 issues):
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0195 (3 issues):
+  - Problem requires 'button (tap)' but not found in Solution hardware list
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0196 (3 issues):
+  - Problem requires 'switch' but not found in Solution hardware list
+  - Problem requires 'led, buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0197 (2 issues):
+  - Problem requires 'red led' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0198 (2 issues):
+  - Problem requires 'buzzer' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0199 (1 issues):
+  - Learning Objective may not align with Problem Statement (< 3 common words)
+
+Project 0200 (2 issues):
+  - Problem requires '2 leds' but not found in Solution hardware list
+  - Learning Objective may not align with Problem Statement (< 3 common words)

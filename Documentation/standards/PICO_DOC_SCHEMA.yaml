@@ -1,0 +1,44 @@
+project:
+  id:
+    pattern: "^[0-9]{4}$"
+    required: true
+  title:
+    required: true
+    source: problem_Statements
+
+learning_objective:
+  type: string
+  starts_with_verb: true
+  max_sentences: 1
+
+concepts:
+  min_items: 3
+  max_items: 5
+  must_include:
+    - hardware
+    - coding
+
+hardware:
+  must_include:
+    - Raspberry Pi Pico
+  quantities_required: true
+
+wiring:
+  table:
+    headers: [Component, Pico Pin]
+  pin_standards:
+    led: [GP15, GP14]
+    button: [GP16, GP17]
+
+code:
+  language: micropython
+  must_import:
+    - machine
+    - time
+  pin_alignment: wiring
+
+common_mistakes:
+  min_items: 2
+
+extensions:
+  min_items: 2

@@ -1,0 +1,834 @@
+Section 8/10 Mismatch Audit Report
+Total projects with issues: 133
+
+
+Project 0095 (11 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'guess' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btnA' but Section 8 doesn't mention it
+  - Code defines variable 'UNIT' but Section 8 doesn't mention it
+  - Code defines variable 'btnB' but Section 8 doesn't mention it
+  - Code defines variable 'choice' but Section 8 doesn't mention it
+  - Code defines constant 'UNIT' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0046 (10 issues):
+  - Contains placeholder [Category]
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'NIGHT_THRESHOLD' but Section 8 doesn't mention it
+  - Code defines variable 'yel' but Section 8 doesn't mention it
+  - Code defines variable 'grn' but Section 8 doesn't mention it
+  - Code defines variable 'ldr' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines constant 'NIGHT_THRESHOLD' but Section 8 doesn't mention it
+  - Code has 'if' statement but Section 8 doesn't mention it
+
+Project 0076 (10 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'foul' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code defines variable 'wait_time' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'start_wait' but Section 8 doesn't mention it
+  - Code defines variable 'green' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0049 (9 issues):
+  - Contains placeholder [Category]
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'trig' but Section 8 doesn't mention it
+  - Code defines variable 'echo' but Section 8 doesn't mention it
+  - Code defines variable 'grn' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code has 'if' statement but Section 8 doesn't mention it
+
+Project 0060 (9 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'is_moving' but Section 8 doesn't mention it
+  - Code defines variable 'is_dark' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'pir' but Section 8 doesn't mention it
+  - Code defines variable 'ldr' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0067 (9 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'reed' but Section 8 doesn't mention it
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'High' but Section 8 doesn't mention it
+  - Code defines variable 'is_open' but Section 8 doesn't mention it
+  - Code defines variable 'Low' but Section 8 doesn't mention it
+  - Code defines variable 'open_start' but Section 8 doesn't mention it
+
+Project 0074 (9 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'target' but Section 8 doesn't mention it
+  - Code defines variable 'btns' but Section 8 doesn't mention it
+  - Code defines variable 'pressed' but Section 8 doesn't mention it
+  - Code defines variable 'leds' but Section 8 doesn't mention it
+  - Code defines variable 'score' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0080 (9 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'count' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'presses' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0088 (9 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'guess' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btnA' but Section 8 doesn't mention it
+  - Code defines variable 'btnB' but Section 8 doesn't mention it
+  - Code defines variable 'target' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0014 (8 issues):
+  - Contains placeholder [Category]
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'btnA' but Section 8 doesn't mention it
+  - Code defines variable 'stage' but Section 8 doesn't mention it
+  - Code defines variable 'btnB' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'green' but Section 8 doesn't mention it
+  - Code has 'if' statement but Section 8 doesn't mention it
+
+Project 0039 (8 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'motor' but Section 8 doesn't mention it
+  - Code defines variable 'temp' but Section 8 doesn't mention it
+  - Code defines variable 'reading' but Section 8 doesn't mention it
+  - Code defines variable 'sensor' but Section 8 doesn't mention it
+  - Code defines variable 'conversion_factor' but Section 8 doesn't mention it
+
+Project 0043 (8 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'yel' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'grn' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0077 (8 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'btns' but Section 8 doesn't mention it
+  - Code defines variable 'cut' but Section 8 doesn't mention it
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'safe' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0079 (8 issues):
+  - Contains placeholder [Category]
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'trig' but Section 8 doesn't mention it
+  - Code defines variable 'end' but Section 8 doesn't mention it
+  - Code defines variable 'echo' but Section 8 doesn't mention it
+
+Project 0084 (8 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'count' but Section 8 doesn't mention it
+  - Code defines variable 'led2' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code defines variable 'led1' but Section 8 doesn't mention it
+  - Code defines variable 'led0' but Section 8 doesn't mention it
+
+Project 0093 (8 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'dash' but Section 8 doesn't mention it
+  - Code defines variable 'dot' but Section 8 doesn't mention it
+  - Code defines variable 'UNIT' but Section 8 doesn't mention it
+  - Code defines constant 'UNIT' but Section 8 doesn't mention it
+
+Project 0096 (8 issues):
+  - Contains placeholder [Category]
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'val' but Section 8 doesn't mention it
+  - Code defines variable 'end' but Section 8 doesn't mention it
+  - Code defines variable 'ldr' but Section 8 doesn't mention it
+  - Code has 'if' statement but Section 8 doesn't mention it
+
+Project 0097 (8 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'trig' but Section 8 doesn't mention it
+  - Code defines variable 'UNIT' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code defines constant 'UNIT' but Section 8 doesn't mention it
+
+Project 0005 (7 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'btnA' but Section 8 doesn't mention it
+  - Code defines variable 'grn' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'btnB' but Section 8 doesn't mention it
+
+Project 0034 (7 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'motor' but Section 8 doesn't mention it
+  - Code defines variable 'level' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0047 (7 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'camera' but Section 8 doesn't mention it
+  - Code defines variable 'car_sensor' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0057 (7 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'trig' but Section 8 doesn't mention it
+  - Code defines variable 'echo' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+
+Project 0066 (7 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'count' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code defines variable 'last_time' but Section 8 doesn't mention it
+
+Project 0078 (7 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'color' but Section 8 doesn't mention it
+  - Code defines variable 'btns' but Section 8 doesn't mention it
+  - Code defines variable 'pressed' but Section 8 doesn't mention it
+  - Code defines variable 'leds' but Section 8 doesn't mention it
+  - Code defines variable 'target' but Section 8 doesn't mention it
+  - Code defines variable 'failed' but Section 8 doesn't mention it
+
+Project 0082 (7 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'count' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0083 (7 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'btnA' but Section 8 doesn't mention it
+  - Code defines variable 'count' but Section 8 doesn't mention it
+  - Code defines variable 'change' but Section 8 doesn't mention it
+  - Code defines variable 'btnB' but Section 8 doesn't mention it
+
+Project 0085 (7 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'steps' but Section 8 doesn't mention it
+  - Code defines variable 'tilt' but Section 8 doesn't mention it
+  - Code defines variable 'val' but Section 8 doesn't mention it
+  - Code defines variable 'last_val' but Section 8 doesn't mention it
+
+Project 0086 (7 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'people' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'grn' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0098 (7 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'press_start' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code defines variable 'target' but Section 8 doesn't mention it
+  - Code defines variable 'duration' but Section 8 doesn't mention it
+
+Project 0003 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'button' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0009 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'sensor' but Section 8 doesn't mention it
+  - Code defines variable 'val' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+
+Project 0016 (6 issues):
+  - Contains placeholder [Category]
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'mode' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code has 'if' statement but Section 8 doesn't mention it
+
+Project 0025 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'btnA' but Section 8 doesn't mention it
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'btnB' but Section 8 doesn't mention it
+
+Project 0027 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'delay' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0035 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'btnR' but Section 8 doesn't mention it
+  - Code defines variable 'btnF' but Section 8 doesn't mention it
+  - Code defines variable 'ib' but Section 8 doesn't mention it
+
+Project 0038 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'motor' but Section 8 doesn't mention it
+  - Code defines variable 'spinTime' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0045 (6 issues):
+  - Code defines variable 'yel' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'grn' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+  - Code has 'if' statement but Section 8 doesn't mention it
+
+Project 0048 (6 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'grn' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code defines variable 'yel' but Section 8 doesn't mention it
+  - Code defines variable 'diff' but Section 8 doesn't mention it
+
+Project 0050 (6 issues):
+  - Code defines variable 'n_red' but Section 8 doesn't mention it
+  - Code defines variable 'w_grn' but Section 8 doesn't mention it
+  - Code defines variable 'w_red' but Section 8 doesn't mention it
+  - Code defines variable 'n_yel' but Section 8 doesn't mention it
+  - Code defines variable 'w_yel' but Section 8 doesn't mention it
+  - Code defines variable 'n_grn' but Section 8 doesn't mention it
+
+Project 0056 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'reading' but Section 8 doesn't mention it
+  - Code defines variable 'ldr' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+
+Project 0062 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0063 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'btnA' but Section 8 doesn't mention it
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'btnB' but Section 8 doesn't mention it
+
+Project 0068 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'outcome' but Section 8 doesn't mention it
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0070 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'signal_active' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0073 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'count' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0075 (6 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'dt' but Section 8 doesn't mention it
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0094 (6 issues):
+  - Contains placeholder [Category]
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'UNIT' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines constant 'UNIT' but Section 8 doesn't mention it
+
+Project 0100 (6 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'symbol' but Section 8 doesn't mention it
+  - Code defines variable 'UNIT' but Section 8 doesn't mention it
+  - Code defines variable 'end' but Section 8 doesn't mention it
+  - Code defines constant 'UNIT' but Section 8 doesn't mention it
+
+Project 0018 (5 issues):
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'ledA' but Section 8 doesn't mention it
+  - Code defines variable 'btnA' but Section 8 doesn't mention it
+  - Code defines variable 'btnB' but Section 8 doesn't mention it
+  - Code defines variable 'ledB' but Section 8 doesn't mention it
+
+Project 0023 (5 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0033 (5 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'motor' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0053 (5 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'sw' but Section 8 doesn't mention it
+
+Project 0058 (5 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'ldr' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+
+Project 0061 (5 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0064 (5 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0069 (5 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'echo' but Section 8 doesn't mention it
+  - Code defines variable 'trig' but Section 8 doesn't mention it
+
+Project 0081 (5 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'count' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0092 (5 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0101 (5 issues):
+  - Code defines variable 'sda' but Section 8 doesn't mention it
+  - Code defines variable 'i2c' but Section 8 doesn't mention it
+  - Code defines variable 'lcd' but Section 8 doesn't mention it
+  - Code defines variable 'scl' but Section 8 doesn't mention it
+  - Code defines variable 'freq' but Section 8 doesn't mention it
+
+Project 0004 (4 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'yel' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'grn' but Section 8 doesn't mention it
+
+Project 0007 (4 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'blue' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0013 (4 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'green' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0024 (4 issues):
+  - Contains placeholder [Category]
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+
+Project 0026 (4 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'muted' but Section 8 doesn't mention it
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0028 (4 issues):
+  - Vague: 'appropriate block'
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+
+Project 0030 (4 issues):
+  - Contains placeholder [Category]
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+
+Project 0051 (4 issues):
+  - Contains placeholder [Category]
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'led' but Section 8 doesn't mention it
+
+Project 0052 (4 issues):
+  - Contains placeholder [Category]
+  - Vague: 'as needed'
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'pwm' but Section 8 doesn't mention it
+
+Project 0071 (4 issues):
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'green' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0072 (4 issues):
+  - Code defines variable 'caught' but Section 8 doesn't mention it
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0099 (4 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'UNIT' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines constant 'UNIT' but Section 8 doesn't mention it
+
+Project 0115 (4 issues):
+  - Code defines variable 'duty' but Section 8 doesn't mention it
+  - Code defines variable 'val' but Section 8 doesn't mention it
+  - Code defines variable 'servo' but Section 8 doesn't mention it
+  - Code has 'if' statement but Section 8 doesn't mention it
+
+Project 0139 (4 issues):
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'end' but Section 8 doesn't mention it
+  - Code defines variable 'duration' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0001 (3 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0006 (3 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0008 (3 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'wait_time' but Section 8 doesn't mention it
+
+Project 0010 (3 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'pins' but Section 8 doesn't mention it
+  - Code defines variable 'leds' but Section 8 doesn't mention it
+
+Project 0012 (3 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0015 (3 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'btnA' but Section 8 doesn't mention it
+  - Code defines variable 'btnB' but Section 8 doesn't mention it
+
+Project 0017 (3 issues):
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0029 (3 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'ldr' but Section 8 doesn't mention it
+
+Project 0036 (3 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'motor' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0041 (3 issues):
+  - Code defines variable 'yel' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'grn' but Section 8 doesn't mention it
+
+Project 0044 (3 issues):
+  - Code defines variable 'yel' but Section 8 doesn't mention it
+  - Code defines variable 'red' but Section 8 doesn't mention it
+  - Code defines variable 'grn' but Section 8 doesn't mention it
+
+Project 0055 (3 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'mic' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+
+Project 0087 (3 issues):
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'last_act' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0153 (3 issues):
+  - Code defines variable 'mem' but Section 8 doesn't mention it
+  - Code defines variable 'res' but Section 8 doesn't mention it
+  - Code defines variable 'buffer' but Section 8 doesn't mention it
+
+Project 0161 (3 issues):
+  - Code defines variable 'sensor' but Section 8 doesn't mention it
+  - Code defines variable 'trigger_pin' but Section 8 doesn't mention it
+  - Code defines variable 'echo_pin' but Section 8 doesn't mention it
+
+Project 0191 (3 issues):
+  - Code defines variable 'clk' but Section 8 doesn't mention it
+  - Code defines variable 'dio' but Section 8 doesn't mention it
+  - Code defines variable 'tm' but Section 8 doesn't mention it
+
+Project 0002 (2 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'led' but Section 8 doesn't mention it
+
+Project 0011 (2 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0019 (2 issues):
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0022 (2 issues):
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+
+Project 0037 (2 issues):
+  - Code defines variable 'motor' but Section 8 doesn't mention it
+  - Code defines variable 'pir' but Section 8 doesn't mention it
+
+Project 0040 (2 issues):
+  - Uses numbered (1/2/3) instead of A/B structure
+  - Code defines variable 'motor' but Section 8 doesn't mention it
+
+Project 0059 (2 issues):
+  - Code defines variable 'led' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0065 (2 issues):
+  - Code defines variable 'buzz' but Section 8 doesn't mention it
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0089 (2 issues):
+  - Code defines variable 'ldr' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0112 (2 issues):
+  - Code defines variable 'pot' but Section 8 doesn't mention it
+  - Code defines variable 'led' but Section 8 doesn't mention it
+
+Project 0113 (2 issues):
+  - Code defines variable 'conversion_factor' but Section 8 doesn't mention it
+  - Code defines variable 'reading' but Section 8 doesn't mention it
+
+Project 0120 (2 issues):
+  - Code defines variable 'avg' but Section 8 doesn't mention it
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0136 (2 issues):
+  - Code defines variable 'start' but Section 8 doesn't mention it
+  - Code defines variable 'trig1' but Section 8 doesn't mention it
+
+Project 0160 (2 issues):
+  - Code defines variable 'mid' but Section 8 doesn't mention it
+  - Code defines variable 'cols' but Section 8 doesn't mention it
+
+Project 0020 (1 issues):
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0021 (1 issues):
+  - Code defines variable 'buzzer' but Section 8 doesn't mention it
+
+Project 0031 (1 issues):
+  - Code defines variable 'motor' but Section 8 doesn't mention it
+
+Project 0032 (1 issues):
+  - Code defines variable 'motor' but Section 8 doesn't mention it
+
+Project 0042 (1 issues):
+  - Code defines variable 'yel' but Section 8 doesn't mention it
+
+Project 0091 (1 issues):
+  - Code defines variable 'led' but Section 8 doesn't mention it
+
+Project 0103 (1 issues):
+  - Code defines variable 'tmp' but Section 8 doesn't mention it
+
+Project 0104 (1 issues):
+  - Code defines variable 'pacman_open' but Section 8 doesn't mention it
+
+Project 0105 (1 issues):
+  - Code defines variable 'btn' but Section 8 doesn't mention it
+
+Project 0106 (1 issues):
+  - Code defines variable 'empty' but Section 8 doesn't mention it
+
+Project 0110 (1 issues):
+  - Code defines variable 'now' but Section 8 doesn't mention it
+
+Project 0111 (1 issues):
+  - Code defines variable 'pot' but Section 8 doesn't mention it
+
+Project 0114 (1 issues):
+  - Code defines variable 'val' but Section 8 doesn't mention it
+
+Project 0121 (1 issues):
+  - Code defines variable 'sensor' but Section 8 doesn't mention it
+
+Project 0126 (1 issues):
+  - Code defines variable 'dp' but Section 8 doesn't mention it
+
+Project 0130 (1 issues):
+  - Code defines variable 'now' but Section 8 doesn't mention it
+
+Project 0131 (1 issues):
+  - Code defines variable 'ldr' but Section 8 doesn't mention it
+
+Project 0134 (1 issues):
+  - Code defines variable 'val' but Section 8 doesn't mention it
+
+Project 0137 (1 issues):
+  - Code has 'for' loop but Section 8 doesn't mention repeat/count
+
+Project 0140 (1 issues):
+  - Code defines variable 'threshold' but Section 8 doesn't mention it
+
+Project 0141 (1 issues):
+  - Code defines variable 'servo' but Section 8 doesn't mention it
+
+Project 0147 (1 issues):
+  - Code defines variable 'wait' but Section 8 doesn't mention it
+
+Project 0157 (1 issues):
+  - Code defines variable 'armed' but Section 8 doesn't mention it
+
+Project 0162 (1 issues):
+  - Code defines variable 'val' but Section 8 doesn't mention it
+
+Project 0170 (1 issues):
+  - Code defines variable 'vals' but Section 8 doesn't mention it
+
+Project 0171 (1 issues):
+  - Code defines variable 'np' but Section 8 doesn't mention it
+
+Project 0187 (1 issues):
+  - Code defines variable 'px' but Section 8 doesn't mention it
+
+Project 0193 (1 issues):
+  - Code defines variable 'cnt' but Section 8 doesn't mention it
+
+Project 0194 (1 issues):
+  - Code defines variable 'hhmm' but Section 8 doesn't mention it
+
+Project 0200 (1 issues):
+  - Code defines variable 'colon' but Section 8 doesn't mention it

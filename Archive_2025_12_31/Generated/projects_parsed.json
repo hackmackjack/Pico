@@ -1,0 +1,944 @@
+{
+  "501": {
+    "title": "Introduction to Digital Art",
+    "category": "Displays & User Feedback",
+    "problem": "Strobe\". Create a visual strobe effect. Flash White (R+G+B) for 0.05s, Off for 0.1s. Loop. (Warning: Flashing lights).",
+    "hardware": [
+      "Pico",
+      "RGB LED"
+    ]
+  },
+  "502": {
+    "title": "Blinking Digital Art",
+    "category": "Displays & User Feedback",
+    "problem": "Secondary Pulse\". Flash Yellow (R+G), then Cyan (G+B), then Magenta (R+B).",
+    "hardware": [
+      "Pico",
+      "RGB LED"
+    ]
+  },
+  "503": {
+    "title": "Manual Digital Art Control",
+    "category": "Displays & User Feedback",
+    "problem": "Color Paddles\". 3 Buttons. Button 1 toggles Red component On/Off. Button 2 toggles Green. Button 3 toggles Blue. Build any of the 8 basic colors.",
+    "hardware": [
+      "Pico",
+      "3 Buttons",
+      "RGB LED"
+    ]
+  },
+  "504": {
+    "title": "Digital Art Sequences",
+    "category": "Displays & User Feedback",
+    "problem": "Campfire\". Randomly mix Red and Green (with Red always > Green) to simulate flickering Orange/Red fire colors.",
+    "hardware": [
+      "Pico",
+      "RGB LED"
+    ]
+  },
+  "505": {
+    "title": "Interactive Digital Art",
+    "category": "Sensors (Environment, Motion, Light, Power)",
+    "problem": "Light Painter\". In a dark room (LDR detects), turn on RGB LED sequence. In light room, turn off to save battery.",
+    "hardware": [
+      "Pico",
+      "LDR",
+      "RGB LED"
+    ]
+  },
+  "506": {
+    "title": "Smart Digital Art Switch",
+    "category": "Displays & User Feedback",
+    "problem": "Mood Selector\". Switch Left = \"Calm\" (Slow Blue fade). Switch Right = \"Energy\" (Fast Red flash).",
+    "hardware": [
+      "Pico",
+      "Switch",
+      "RGB LED"
+    ]
+  },
+  "507": {
+    "title": "Digital Art Alarm System",
+    "category": "Safety & Automation",
+    "problem": "Color Code Alarm\". If Button A pressed -> Flash Red. If Button B -> Flash Blue. If Both -> Flash Purple.",
+    "hardware": [
+      "Pico",
+      "2 Buttons",
+      "RGB LED"
+    ]
+  },
+  "508": {
+    "title": "The Digital Art Game",
+    "category": "Displays & User Feedback",
+    "problem": "Reaction Color\". Pico flashes a color. User must press the button ONLY if the color is \"Green\". Ignore Red and Blue.",
+    "hardware": [
+      "Pico",
+      "RGB LED",
+      "Button"
+    ]
+  },
+  "509": {
+    "title": "Automated Digital Art",
+    "category": "Timing & Control Logic",
+    "problem": "Day Cycle\". Sunrise (Orange) -> Noon (White) -> Sunset (Red) -> Night (Blue). Cycle duration 20 seconds.",
+    "hardware": [
+      "Pico",
+      "RGB LED"
+    ]
+  },
+  "510": {
+    "title": "Mastering Digital Art",
+    "category": "Displays & User Feedback",
+    "problem": "Custom Shade\". Define a shading function. Input `intensity` (0-100). If specific color is 'Purple', calculate R = INTENSITY, B = INTENSITY, G = 0.",
+    "hardware": [
+      "Pico",
+      "RGB LED"
+    ]
+  },
+  "511": {
+    "title": "Introduction to Animation",
+    "category": "Displays & User Feedback",
+    "problem": "Countdown Big\". Display \"3\" on OLED (Fill screen). Clear. \"2\". Clear. \"1\".",
+    "hardware": [
+      "Pico",
+      "OLED"
+    ]
+  },
+  "512": {
+    "title": "Blinking Animation",
+    "category": "Displays & User Feedback",
+    "problem": "Wink\". Draw a face. Close one eye (Draw horizontal line instead of circle). Open it. Loop.",
+    "hardware": [
+      "Pico",
+      "OLED"
+    ]
+  },
+  "513": {
+    "title": "Manual Animation Control",
+    "category": "Displays & User Feedback",
+    "problem": "Etch-a-Sketch\". Pot 1 = X. Pot 2 = Y. Move a dot around the screen. (Don't clear previous frame to leave a trail).",
+    "hardware": [
+      "Pico",
+      "2 Pots",
+      "OLED"
+    ]
+  },
+  "514": {
+    "title": "Animation Sequences",
+    "category": "Displays & User Feedback",
+    "problem": "Loading Bar\". Draw a rectangle outline. Fill it 10%, 20%, ... 100% over 5 seconds.",
+    "hardware": [
+      "Pico",
+      "OLED"
+    ]
+  },
+  "515": {
+    "title": "Interactive Animation",
+    "category": "Displays & User Feedback",
+    "problem": "Jump\". Character on ground (Y=60). Press Button -> Y goes 60->40->20->40->60 (Jump arc).",
+    "hardware": [
+      "Pico",
+      "Button",
+      "OLED"
+    ]
+  },
+  "516": {
+    "title": "Smart Animation Switch",
+    "category": "Displays & User Feedback",
+    "problem": "Orientation\" (Simulated). If button A is pressed (rotate left), redraw the text vertically.",
+    "hardware": [
+      "Pico",
+      "Button",
+      "OLED"
+    ]
+  },
+  "517": {
+    "title": "Animation Alarm System",
+    "category": "Safety & Automation",
+    "problem": "Heartbeat\". Draw a heart shape. Scale it: Small -> Big -> Small (Pumping effect). If \"Stress\" Alarm is ON, pump faster.",
+    "hardware": [
+      "Pico",
+      "Button (Stress trigger)",
+      "OLED"
+    ]
+  },
+  "518": {
+    "title": "The Animation Game",
+    "category": "Displays & User Feedback",
+    "problem": "Avoid\". Dot falls from top. Player moves separate dot at bottom (Left/Right buttons). Don't let them collide.",
+    "hardware": [
+      "Pico",
+      "2 Buttons",
+      "OLED"
+    ]
+  },
+  "519": {
+    "title": "Automated Animation",
+    "category": "Displays & User Feedback",
+    "problem": "Screensaver\". If no buttons pressed for 10 seconds, start bouncing a text \"DVD\" (or similar) around the screen.",
+    "hardware": [
+      "Pico",
+      "Buttons",
+      "OLED"
+    ]
+  },
+  "520": {
+    "title": "Mastering Animation",
+    "category": "Displays & User Feedback",
+    "problem": "Sprite Sheet\". (Concept). Define a bitmap for \"Pacman Open\" and \"Pacman Closed\". Alternate them while moving X position to animate walking.",
+    "hardware": [
+      "Pico",
+      "OLED"
+    ]
+  },
+  "521": {
+    "title": "Introduction to Binary Counter",
+    "category": "Basics & Digital I/O",
+    "problem": "Bit Mask\". Input a number (simulated). Check if Bit 2 (value 4) is ON. `if (num & 4) > 0`. Light LED.",
+    "hardware": [
+      "Pico",
+      "LED"
+    ]
+  },
+  "522": {
+    "title": "Blinking Binary Counter",
+    "category": "Basics & Digital I/O",
+    "problem": "4-bit Random\". Generate random number 0-15. Display on 4 LEDs. Update every 0.5s.",
+    "hardware": [
+      "Pico",
+      "4 LEDs"
+    ]
+  },
+  "523": {
+    "title": "Manual Binary Counter Control",
+    "category": "Basics & Digital I/O",
+    "problem": "Incrementer\". Button A adds 1 to count. Button B subtracts 1. Display in Binary on LEDs.",
+    "hardware": [
+      "Pico",
+      "2 Buttons",
+      "4 LEDs"
+    ]
+  },
+  "524": {
+    "title": "Binary Counter Sequences",
+    "category": "Basics & Digital I/O",
+    "problem": "Knight Rider\". (KITT). 1 LED on. Shift Left.. Left.. Hit End.. Shift Right.. Right.",
+    "hardware": [
+      "Pico",
+      "6-8 LEDs"
+    ]
+  },
+  "525": {
+    "title": "Interactive Binary Counter",
+    "category": "Basics & Digital I/O",
+    "problem": "Binary Clock\" (Seconds only). Count 0-59. Display on 6 LEDs (2^5 = 32, need 6 bits).",
+    "hardware": [
+      "Pico",
+      "6 LEDs"
+    ]
+  },
+  "526": {
+    "title": "Smart Binary Counter Switch",
+    "category": "Communication & Networking",
+    "problem": "Parity Bit\". Read 3 switches. Calculate \"Even Parity\" (If sum of bits is odd, turn on 4th LED to make total even).",
+    "hardware": [
+      "Pico",
+      "3 Switches",
+      "1 LED (Parity)"
+    ]
+  },
+  "527": {
+    "title": "Binary Counter Alarm System",
+    "category": "Safety & Automation",
+    "problem": "Overflow Alarm\". If count > 15 (4 bits max), trigger Alarm and reset to 0.",
+    "hardware": [
+      "Pico",
+      "Button (+1)",
+      "Buzzer"
+    ]
+  },
+  "528": {
+    "title": "The Binary Counter Game",
+    "category": "Displays & User Feedback",
+    "problem": "Guess the Number\". Pico shows binary pattern. User prints the Decimal number on console. (Educational drill).",
+    "hardware": [
+      "Pico",
+      "4 LEDs"
+    ]
+  },
+  "529": {
+    "title": "Automated Binary Counter",
+    "category": "Timing & Control Logic",
+    "problem": "BCD Counter\" (Binary Coded Decimal). Use 4 LEDs for 'Ones' digit and 4 LEDs for 'Tens' digit. Count 0-99.",
+    "hardware": [
+      "Pico",
+      "8 LEDs"
+    ]
+  },
+  "530": {
+    "title": "Mastering Binary Counter",
+    "category": "Basics & Digital I/O",
+    "problem": "Serial to Parallel\" (Simulated 74HC595). Create a function `shiftOut(data)` that pulses a \"Clock\" pin and sets \"Data\" pin 8 times to send a byte.",
+    "hardware": [
+      "Pico",
+      "2 LEDs (Simulating Clock/Data)"
+    ]
+  },
+  "531": {
+    "title": "Introduction to Temperature Alarm",
+    "category": "Sensors (Environment, Motion, Light, Power)",
+    "problem": "Fahrenheit\". Read Celsius. Convert to Fahrenheit `(C * 9/5) + 32`. Print both.",
+    "hardware": [
+      "Pico",
+      "Temp Sensor"
+    ]
+  },
+  "532": {
+    "title": "Blinking Temperature Alarm",
+    "category": "Safety & Automation",
+    "problem": "Freeze Warning\". If Temp <= 0, Flash Blue LED fast. Ice Detect.",
+    "hardware": [
+      "Pico",
+      "Temp Sensor",
+      "Blue LED"
+    ]
+  },
+  "533": {
+    "title": "Manual Temperature Alarm Control",
+    "category": "Displays & User Feedback",
+    "problem": "Simulate Heat\". Use button A. While held, artificially add +1 degree to the reading variable every 0.5s. Watch the alarm trigger.",
+    "hardware": [
+      "Pico",
+      "Button",
+      "Temp Sensor logic"
+    ]
+  },
+  "534": {
+    "title": "Temperature Alarm Sequences",
+    "category": "Sensors (Environment, Motion, Light, Power)",
+    "problem": "Min/Max Record\". Track the lowest and highest temp seen since startup. Print \"Current: 24, Min: 22, Max: 25\".",
+    "hardware": [
+      "Pico",
+      "Temp Sensor"
+    ]
+  },
+  "535": {
+    "title": "Interactive Temperature Alarm",
+    "category": "Displays & User Feedback",
+    "problem": "Comfort Zone\". Define range 20-25. If inside, Green LED. If outside (Low or High), Red LED.",
+    "hardware": [
+      "Pico",
+      "Temp Sensor",
+      "Red/Green LEDs"
+    ]
+  },
+  "536": {
+    "title": "Smart Temperature Alarm Switch",
+    "category": "Safety & Automation",
+    "problem": "Hysteresis\". Fan turns ON at 30C. Fan turns OFF at 28C (Not 29.9). Prevents rapid switching.",
+    "hardware": [
+      "Pico",
+      "Temp Sensor",
+      "Fan/LED"
+    ]
+  },
+  "537": {
+    "title": "Temperature Alarm Alarm System",
+    "category": "Data Logging & Storage",
+    "problem": "Rapid Rise\". If temp increases by more than 5 degrees in 10 seconds -> Fire Alarm! (Rate of change).",
+    "hardware": [
+      "Pico",
+      "Temp Sensor",
+      "Buzzer"
+    ]
+  },
+  "538": {
+    "title": "The Temperature Alarm Game",
+    "category": "Displays & User Feedback",
+    "problem": "Body Heat\". Hold the sensor. See how long it takes to reach 30C. Timer game.",
+    "hardware": [
+      "Pico",
+      "Temp Sensor",
+      "OLED (Timer)"
+    ]
+  },
+  "539": {
+    "title": "Automated Temperature Alarm",
+    "category": "Communication & Networking",
+    "problem": "Avg Filter\". Read sensor 10 times. Average the results to remove noise. Use this smooth value for alarm logic.",
+    "hardware": [
+      "Pico",
+      "Temp Sensor"
+    ]
+  },
+  "540": {
+    "title": "Mastering Temperature Alarm",
+    "category": "Safety & Automation",
+    "problem": "PID Basics\" (Proportional only). Fan Speed = (CurrentTemp - TargetTemp) * K. The hotter it is, the faster the fan.",
+    "hardware": [
+      "Pico",
+      "Temp Sensor",
+      "Fan (PWM)"
+    ]
+  },
+  "541": {
+    "title": "Introduction to Smart Fan",
+    "category": "Motors & Motion",
+    "problem": "Spin Up\". Start at 0%. Increase speed by 1% every 0.1s until 100%. Soft start.",
+    "hardware": [
+      "Pico",
+      "Fan"
+    ]
+  },
+  "542": {
+    "title": "Blinking Smart Fan",
+    "category": "Motors & Motion",
+    "problem": "Gust Mode\". Run at 20%. Randomly surge to 100% for 0.5s, then back to 20%.",
+    "hardware": [
+      "Pico",
+      "Fan"
+    ]
+  },
+  "543": {
+    "title": "Manual Smart Fan Control",
+    "category": "Motors & Motion",
+    "problem": "Toggle Speed\". Button Press: Low -> Med -> High -> Off -> Low...",
+    "hardware": [
+      "Pico",
+      "Button",
+      "Fan"
+    ]
+  },
+  "544": {
+    "title": "Smart Fan Sequences",
+    "category": "Motors & Motion",
+    "problem": "Oscillate\" (Servo + Fan). Servo moves fan Left-Right slowly while Fan blows.",
+    "hardware": [
+      "Pico",
+      "Servo (Base)",
+      "Fan (Head)"
+    ]
+  },
+  "545": {
+    "title": "Interactive Smart Fan",
+    "category": "Sensors (Environment, Motion, Light, Power)",
+    "problem": "Breath Switch\". Blow on a \"Wind Sensor\" (small fan acting as generator or mic). If wind detected, turn on Main Fan.",
+    "hardware": [
+      "Pico",
+      "Mic/Sensor",
+      "Fan"
+    ]
+  },
+  "546": {
+    "title": "Smart Smart Fan Switch",
+    "category": "Safety & Automation",
+    "problem": "Timer Off\". Turn fan on. Automatically turn off after 30 minutes (Simulate with 10s). Sleep timer.",
+    "hardware": [
+      "Pico",
+      "Button (Start)",
+      "Fan"
+    ]
+  },
+  "547": {
+    "title": "Smart Fan Alarm System",
+    "category": "Safety & Automation",
+    "problem": "Overheat Protect\". If the Motor Driver chip simulates \"Overheat\" (Button input), shut down fan and lock out until Reset.",
+    "hardware": [
+      "Pico",
+      "Button (Fault)",
+      "Fan"
+    ]
+  },
+  "548": {
+    "title": "The Smart Fan Game",
+    "category": "Motors & Motion",
+    "problem": "Hover Ball\". Fan blowing up in a tube. Ping pong ball. Use Potentiometer to control Fan speed to keep ball at a specific height mark.",
+    "hardware": [
+      "Pico",
+      "Fan",
+      "Potentiometer"
+    ]
+  },
+  "549": {
+    "title": "Automated Smart Fan",
+    "category": "Sensors (Environment, Motion, Light, Power)",
+    "problem": "Humidity Extract\". DHT11. If Humidity > 70%, turn on Exhaust Fan.",
+    "hardware": [
+      "Pico",
+      "DHT11",
+      "Fan"
+    ]
+  },
+  "550": {
+    "title": "Mastering Smart Fan",
+    "category": "Motors & Motion",
+    "problem": "Tachometer\". Read the \"Tach\" pulse pin from a PC fan. Measure RPM. Print to screen.",
+    "hardware": [
+      "Pico",
+      "3-wire or 4-wire Fan (with Tach)"
+    ]
+  },
+  "551": {
+    "title": "Introduction to Robotic Arm Basics",
+    "category": "Motors & Motion",
+    "problem": "Center\". Write code to accurately position servo at 90 degrees on startup.",
+    "hardware": [
+      "Pico",
+      "Servo"
+    ]
+  },
+  "552": {
+    "title": "Blinking Robotic Arm Basics",
+    "category": "Motors & Motion",
+    "problem": "Wave\". Move 0 to 180 and back continuously. Add `sleep` to control speed.",
+    "hardware": [
+      "Pico",
+      "Servo"
+    ]
+  },
+  "553": {
+    "title": "Manual Robotic Arm Basics Control",
+    "category": "Motors & Motion",
+    "problem": "Direct Drive\". Potentiometer mapped to Angle. 0V = 0 deg. 3.3V = 180 deg.",
+    "hardware": [
+      "Pico",
+      "Pot",
+      "Servo"
+    ]
+  },
+  "554": {
+    "title": "Robotic Arm Basics Sequences",
+    "category": "Motors & Motion",
+    "problem": "Teach Mode\". Manually move the arm (reading Pot) to position A. Press Button to \"Save A\". Move to B. Press \"Save B\". Then Playback A->B.",
+    "hardware": [
+      "Pico",
+      "Pot",
+      "Button",
+      "Servo"
+    ]
+  },
+  "556": {
+    "title": "Smart Robotic Arm Basics Switch",
+    "category": "Motors & Motion",
+    "problem": "Safety Stop\". If Light Curtain (IR Beam) is broken, Arm stops moving immediately.",
+    "hardware": [
+      "Pico",
+      "IR Breakbeam",
+      "Servo"
+    ]
+  },
+  "557": {
+    "title": "Robotic Arm Basics Alarm System",
+    "category": "Motors & Motion",
+    "problem": "Torque Limit\" (Simulated). If servo \"current\" (potentiometer simulating load) is too high, Stop and Alarm.",
+    "hardware": [
+      "Pico",
+      "Servo",
+      "Pot (Load sim)"
+    ]
+  },
+  "558": {
+    "title": "The Robotic Arm Basics Game",
+    "category": "Motors & Motion",
+    "problem": "Catapult\". Slow pull back (0 to 90 over 2s). Fast release (90 to 0 instantly). Launch a paper ball.",
+    "hardware": [
+      "Pico",
+      "Servo (High Speed)"
+    ]
+  },
+  "559": {
+    "title": "Automated Robotic Arm Basics",
+    "category": "Motors & Motion",
+    "problem": "Sorter\". Color Sensor. If Red object -> Move Servo Left. If Blue object -> Move Servo Right.",
+    "hardware": [
+      "Pico",
+      "Color Sensor",
+      "Servo"
+    ]
+  },
+  "560": {
+    "title": "Mastering Robotic Arm Basics",
+    "category": "Motors & Motion",
+    "problem": "2-DOF\". 2 Servos (Shoulder, Elbow). Coordinate them to move the tip in a straight line (Forward kinematics).",
+    "hardware": [
+      "Pico",
+      "2 Servos"
+    ]
+  },
+  "561": {
+    "title": "Introduction to OLED Shapes",
+    "category": "Displays & User Feedback",
+    "problem": "Pixels\". Light up the 4 corners of the screen (0,0), (127,0), (0,63), (127,63).",
+    "hardware": [
+      "Pico",
+      "OLED"
+    ]
+  },
+  "562": {
+    "title": "Blinking OLED Shapes",
+    "category": "Displays & User Feedback",
+    "problem": "Screen Saver\". A random pixel turns white every 0.01s. Eventually fills screen with noise (\"Snow\").",
+    "hardware": [
+      "Pico",
+      "OLED"
+    ]
+  },
+  "563": {
+    "title": "Manual OLED Shapes Control",
+    "category": "Displays & User Feedback",
+    "problem": "Size Slider\". Potentiometer controls radius of a circle in center of screen.",
+    "hardware": [
+      "Pico",
+      "Pot",
+      "OLED"
+    ]
+  },
+  "564": {
+    "title": "OLED Shapes Sequences",
+    "category": "Displays & User Feedback",
+    "problem": "Traffic Light Viz\". Draw a box. Draw Red Circle (Filled), Wait. Clear Red, Draw Yellow. Etc. Simulation on screen.",
+    "hardware": [
+      "Pico",
+      "OLED"
+    ]
+  },
+  "565": {
+    "title": "Interactive OLED Shapes",
+    "category": "Displays & User Feedback",
+    "problem": "Tilt Ball\". Accelerometer. Tilt board, ball rolls on screen in that direction.",
+    "hardware": [
+      "Pico",
+      "Accel",
+      "OLED"
+    ]
+  },
+  "566": {
+    "title": "Smart OLED Shapes Switch",
+    "category": "Displays & User Feedback",
+    "problem": "Menu System\". Text \"Option 1\" (Highlighted). Press Down, Highlight \"Option 2\". Invert colors for highlight.",
+    "hardware": [
+      "Pico",
+      "2 Buttons",
+      "OLED"
+    ]
+  },
+  "567": {
+    "title": "OLED Shapes Alarm System",
+    "category": "Displays & User Feedback",
+    "problem": "Flash Message\". Invert Screen (White background, Black text) repeatedly to grab attention.",
+    "hardware": [
+      "Pico",
+      "OLED"
+    ]
+  },
+  "568": {
+    "title": "The OLED Shapes Game",
+    "category": "Displays & User Feedback",
+    "problem": "Snake\" (Mini). A dot moves. Button turns it 90 deg. Don't hit walls. (No tail for now, just head).",
+    "hardware": [
+      "Pico",
+      "Buttons",
+      "OLED"
+    ]
+  },
+  "569": {
+    "title": "Automated OLED Shapes",
+    "category": "Displays & User Feedback",
+    "problem": "Analog Gauge\". Draw a semi-circle dial and a needle line pointing to value mapped from Potentiometer.",
+    "hardware": [
+      "Pico",
+      "Pot",
+      "OLED"
+    ]
+  },
+  "570": {
+    "title": "Mastering OLED Shapes",
+    "category": "Displays & User Feedback",
+    "problem": "3D Cube\". (Wireframe). Define 8 points of a cube. Apply 3D rotation math (Projection). Draw lines connecting points.",
+    "hardware": [
+      "Pico",
+      "OLED"
+    ]
+  },
+  "571": {
+    "title": "Introduction to Stopwatch",
+    "category": "Timing & Control Logic",
+    "problem": "Raw Ticks\". Print `time.ticks_ms()` repeatedly. See the raw clock counter.",
+    "hardware": [
+      "Pico"
+    ]
+  },
+  "572": {
+    "title": "Blinking Stopwatch",
+    "category": "Timing & Control Logic",
+    "problem": "Non-blocking Blink\". Use `ticks_diff` to blink LED without `time.sleep()`.",
+    "hardware": [
+      "Pico",
+      "LED"
+    ]
+  },
+  "573": {
+    "title": "Manual Stopwatch Control",
+    "category": "Displays & User Feedback",
+    "problem": "Lap Timer\". Button press prints \"Lap X: [Time]\". Timer continues running in background.",
+    "hardware": [
+      "Pico",
+      "Button"
+    ]
+  },
+  "574": {
+    "title": "Stopwatch Sequences",
+    "category": "Timing & Control Logic",
+    "problem": "Relay Race\". Player 1 runs (Timer 1). Press A -> Handoff -> Player 2 runs (Timer 2). Press B -> Finish. Sum times.",
+    "hardware": [
+      "Pico",
+      "2 Buttons"
+    ]
+  },
+  "575": {
+    "title": "Interactive Stopwatch",
+    "category": "Displays & User Feedback",
+    "problem": "Reflex Train\". LED randomly lights. Time how long until button press. If Time < 0.2s = \"Pro\".",
+    "hardware": [
+      "Pico",
+      "LED",
+      "Button"
+    ]
+  },
+  "576": {
+    "title": "Smart Stopwatch Switch",
+    "category": "Safety & Automation",
+    "problem": "Timeout\". If user is rewriting settings and stops pressing buttons for 10s, return to \"Home Screen\" (Reset state).",
+    "hardware": [
+      "Pico",
+      "Button",
+      "OLED"
+    ]
+  },
+  "577": {
+    "title": "Stopwatch Alarm System",
+    "category": "Safety & Automation",
+    "problem": "Time Limit Exceeded\". If process (Button held) takes > 5s, Cut power (LED Off) and beep. Safety cutoff.",
+    "hardware": [
+      "Pico",
+      "Button (Process)",
+      "LED",
+      "Buzzer"
+    ]
+  },
+  "578": {
+    "title": "The Stopwatch Game",
+    "category": "Displays & User Feedback",
+    "problem": "Stop at 10.00\". Timer counts fast on screen. User presses button. Score based on how close to 10.00 you got (e.g. 10.05).",
+    "hardware": [
+      "Pico",
+      "Button",
+      "OLED"
+    ]
+  },
+  "579": {
+    "title": "Automated Stopwatch",
+    "category": "Data Logging & Storage",
+    "problem": "Datalogger\". Record temp every 1 second for 1 minute. Store tuples `(time, temp)`. Print plot at end.",
+    "hardware": [
+      "Pico",
+      "Temp Sensor"
+    ]
+  },
+  "580": {
+    "title": "Mastering Stopwatch",
+    "category": "Timing & Control Logic",
+    "problem": "Multitasking\". Blink LED 1 at 500ms. Blink LED 2 at 700ms. Blink LED 3 at 1100ms. All independent using `ticks_ms`.",
+    "hardware": [
+      "Pico",
+      "3 LEDs"
+    ]
+  },
+  "581": {
+    "title": "Introduction to Kitchen Timer",
+    "category": "Timing & Control Logic",
+    "problem": "Second Hand\". Print \".\" every second to console. Newline every 10 seconds.",
+    "hardware": [
+      "Pico"
+    ]
+  },
+  "582": {
+    "title": "Blinking Kitchen Timer",
+    "category": "Displays & User Feedback",
+    "problem": "Urgency\". LED blinks slowly when Time > 10m. Fast when Time < 1m. Solid ON when Time = 0.",
+    "hardware": [
+      "Pico",
+      "LED"
+    ]
+  },
+  "583": {
+    "title": "Manual Kitchen Timer Control",
+    "category": "Displays & User Feedback",
+    "problem": "Rotary Set\". Potentiometer maps to Time. 0 = 0m. Max = 60m. Display value. Button starts.",
+    "hardware": [
+      "Pico",
+      "Pot",
+      "Button",
+      "OLED"
+    ]
+  },
+  "584": {
+    "title": "Kitchen Timer Sequences",
+    "category": "Timing & Control Logic",
+    "problem": "Pomodoro\". 25 minutes Work (Green). 5 minutes Break (Blue). Loop 4 times.",
+    "hardware": [
+      "Pico",
+      "Green/Blue LEDs"
+    ]
+  },
+  "585": {
+    "title": "Interactive Kitchen Timer",
+    "category": "Displays & User Feedback",
+    "problem": "Egg Size\". Button toggles: Small (3m), Med (4m), Large (5m). Adjusts timer variable.",
+    "hardware": [
+      "Pico",
+      "Button"
+    ]
+  },
+  "586": {
+    "title": "Smart Kitchen Timer Switch",
+    "category": "Safety & Automation",
+    "problem": "Child Lock\". Timer buttons don't work unless \"Lock\" switch is Off.",
+    "hardware": [
+      "Pico",
+      "Switch",
+      "Buttons"
+    ]
+  },
+  "587": {
+    "title": "Kitchen Timer Alarm System",
+    "category": "Safety & Automation",
+    "problem": "Forgetful\". If Timer finishes (0) and user doesn't press \"Stop Alarm\" within 1 minute, make sound much louder/annoying.",
+    "hardware": [
+      "Pico",
+      "Buzzer"
+    ]
+  },
+  "588": {
+    "title": "The Kitchen Timer Game",
+    "category": "Displays & User Feedback",
+    "problem": "Bomb Defuse\". Timer counts down. You must cut the correct wire (Disconnect correct jumper wire) to stop it. Wrong wire = Speed up.",
+    "hardware": [
+      "Pico",
+      "Wire Jumpers (Pins)"
+    ]
+  },
+  "589": {
+    "title": "Automated Kitchen Timer",
+    "category": "Sensors (Environment, Motion, Light, Power)",
+    "problem": "Smart Light\". Light stays on for 5 mins after Motion detected. Restart timer if motion detected again.",
+    "hardware": [
+      "Pico",
+      "PIR",
+      "Relay/LED"
+    ]
+  },
+  "590": {
+    "title": "Mastering Kitchen Timer",
+    "category": "Data Logging & Storage",
+    "problem": "RTC\". Use the Pico's internal Real Time Clock to trigger an alarm at exactly 17:00 (5 PM) regardless of when you started.",
+    "hardware": [
+      "Pico",
+      "Internal RTC"
+    ]
+  },
+  "591": {
+    "title": "Introduction to Metronome",
+    "category": "Sound & Music",
+    "problem": "Visual Tick\". Flash screen White for 50ms on every beat.",
+    "hardware": [
+      "Pico",
+      "OLED"
+    ]
+  },
+  "592": {
+    "title": "Blinking Metronome",
+    "category": "Displays & User Feedback",
+    "problem": "Leader\". LED flashes 4 times (Count in). Then Buzzer joins in.",
+    "hardware": [
+      "Pico",
+      "LED",
+      "Buzzer"
+    ]
+  },
+  "593": {
+    "title": "Manual Metronome Control",
+    "category": "Displays & User Feedback",
+    "problem": "Tap Tempo\". Tap button 4 times. Pico calculates average interval and sets BPM to match.",
+    "hardware": [
+      "Pico",
+      "Button"
+    ]
+  },
+  "594": {
+    "title": "Metronome Sequences",
+    "category": "Sound & Music",
+    "problem": "Clave\". Play \"Bo Diddley\" beat or Son Clave pattern (3-2). Not just steady pulse.",
+    "hardware": [
+      "Pico",
+      "Buzzer"
+    ]
+  },
+  "595": {
+    "title": "Interactive Metronome",
+    "category": "Sound & Music",
+    "problem": "Accents\". Button A toggles \"Accent on 1\". Button B toggles \"Triplets\". Modify the loop.",
+    "hardware": [
+      "Pico",
+      "Buttons",
+      "Buzzer"
+    ]
+  },
+  "596": {
+    "title": "Smart Metronome Switch",
+    "category": "Displays & User Feedback",
+    "problem": "Silent Mode\". Switch changes output from Buzzer (Sound) to Vibration Motor (Haptic) for quiet practice.",
+    "hardware": [
+      "Pico",
+      "Switch",
+      "Buzzer",
+      "Vibration Motor"
+    ]
+  },
+  "597": {
+    "title": "Metronome Alarm System",
+    "category": "Safety & Automation",
+    "problem": "Drift Warn\". Use a mic to listen to user info. If user plays louder than reference, flash Red (Too Loud). (Volume monitor).",
+    "hardware": [
+      "Pico",
+      "Mic",
+      "LED"
+    ]
+  },
+  "598": {
+    "title": "The Metronome Game",
+    "category": "Sound & Music",
+    "problem": "Polyrhythm\". Buzzer A plays 3 beats. Buzzer B plays 4 beats in same total time. Listen to the cross-rhythm.",
+    "hardware": [
+      "Pico",
+      "2 Buzzers (or stereo tones)"
+    ]
+  },
+  "599": {
+    "title": "Automated Metronome",
+    "category": "Sound & Music",
+    "problem": "Speed Trainer\". Start at 60 BPM. Increase by 5 BPM every 4 bars automatically.",
+    "hardware": [
+      "Pico",
+      "Buzzer"
+    ]
+  },
+  "600": {
+    "title": "Mastering Metronome",
+    "category": "Sound & Music",
+    "problem": "MIDI Out\". (UART). Send standard MIDI Note On/Off messages via Serial TX pin to control a PC synth.",
+    "hardware": [
+      "Pico",
+      "UART to MIDI adapter / PC"
+    ]
+  }
+}

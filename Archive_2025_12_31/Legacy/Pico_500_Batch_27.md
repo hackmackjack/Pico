@@ -1,0 +1,649 @@
+# 🏁 Batch 27: Smart Display I (261-270)
+*Focus: OLED Text, Shapes, and basic rendering techniques.*
+
+---
+
+## 1️⃣ Project 261: OLED Text Alignment
+### 2️⃣ Learning Objective
+Control Digital Outputs to switch lights.
+
+### 3️⃣ Concepts Introduced
+*   GPIO
+*   Voltage Levels
+
+### 4️⃣ Hardware Required
+*   Raspberry Pi Pico
+*   SSD1306 OLED Display
+*   LED (330ohm Resistor)
+
+### 5️⃣ Wiring / Interfaces
+*   Positive -> GP15
+*   Negative -> GND
+
+### 6️⃣ Blocks Used
+🔹 **set Pin**
+*   **Category:** Standard
+*   **Block:** `set Pin [15] to [HIGH]`
+🔹 **wait**
+*   **Category:** Standard
+*   **Block:** `wait [1] [seconds]`
+
+### 7️⃣ Variables & State
+*   **val:** Generic variable for data.
+
+### 8️⃣ Block Logic
+1. Loop:
+    * Turn On.
+    * Wait.
+    * Turn Off.
+    * Wait.
+
+### 9️⃣ Execution Flow (Plain English)
+We draw to the memory buffer first, then send it to the screen with 'Show'.
+
+### 🔟 Generated Code (Reference Only)
+```python
+import time
+
+# Initialize Hardware (Reference)
+i2c = I2C(0, sda=Pin(0), scl=Pin(1)); oled = SSD1306_I2C(128, 64, i2c)
+
+# Main Logic (See Block Logic)
+while True:
+    # Logic from Section 8
+    time.sleep(1)
+```
+
+### 1️⃣1️⃣ Common Mistakes & Debug Tips
+*   **Wiring**: Check your connections.
+
+### 1️⃣2️⃣ Try This Next
+*   Experiment with different values.
+
+---
+
+
+## 1️⃣ Project 262: Drawing Shapes
+### 2️⃣ Learning Objective
+Explore advanced concepts in OLED using Drawing Shapes.
+
+### 3️⃣ Concepts Introduced
+*   OLED Control
+*   Automation
+
+### 4️⃣ Hardware Required
+*   Raspberry Pi Pico
+*   SSD1306 OLED Display
+
+### 5️⃣ Wiring / Interfaces
+*   SDA -> GP0
+*   SCL -> GP1
+
+### 6️⃣ Blocks Used
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Show`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Draw Rect`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Print`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Clear`
+
+### 7️⃣ Variables & State
+*   **state:** Holds the current status.
+
+### 8️⃣ Block Logic
+1. Initialize System.
+2. Loop:
+    * Check Conditions.
+    * Update Output.
+    * Wait.
+
+### 9️⃣ Execution Flow (Plain English)
+The system continuously monitors inputs and updates the interface based on the logic defined.
+
+### 🔟 Generated Code (Reference Only)
+```python
+import time
+import machine
+
+# Setup
+# ...
+
+while True:
+    # Logic
+    time.sleep(0.1)
+```
+
+### 1️⃣1️⃣ Common Mistakes & Debug Tips
+*   **Power**: Ensure external power is connected if needed.
+
+### 1️⃣2️⃣ Try This Next
+*   Modify the timing parameters.
+
+---
+
+
+## 1️⃣ Project 263: Animation Demo
+### 2️⃣ Learning Objective
+Explore advanced concepts in OLED using Animation Demo.
+
+### 3️⃣ Concepts Introduced
+*   OLED Control
+*   Automation
+
+### 4️⃣ Hardware Required
+*   Raspberry Pi Pico
+*   SSD1306 OLED Display
+
+### 5️⃣ Wiring / Interfaces
+*   SDA -> GP0
+*   SCL -> GP1
+
+### 6️⃣ Blocks Used
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Show`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Draw Rect`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Print`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Clear`
+
+### 7️⃣ Variables & State
+*   **state:** Holds the current status.
+
+### 8️⃣ Block Logic
+1. Initialize System.
+2. Loop:
+    * Check Conditions.
+    * Update Output.
+    * Wait.
+
+### 9️⃣ Execution Flow (Plain English)
+The system continuously monitors inputs and updates the interface based on the logic defined.
+
+### 🔟 Generated Code (Reference Only)
+```python
+import time
+import machine
+
+# Setup
+# ...
+
+while True:
+    # Logic
+    time.sleep(0.1)
+```
+
+### 1️⃣1️⃣ Common Mistakes & Debug Tips
+*   **Power**: Ensure external power is connected if needed.
+
+### 1️⃣2️⃣ Try This Next
+*   Modify the timing parameters.
+
+---
+
+
+## 1️⃣ Project 264: Invert Colors
+### 2️⃣ Learning Objective
+Explore advanced concepts in OLED using Invert Colors.
+
+### 3️⃣ Concepts Introduced
+*   OLED Control
+*   Automation
+
+### 4️⃣ Hardware Required
+*   Raspberry Pi Pico
+*   SSD1306 OLED Display
+
+### 5️⃣ Wiring / Interfaces
+*   SDA -> GP0
+*   SCL -> GP1
+
+### 6️⃣ Blocks Used
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Show`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Draw Rect`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Print`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Clear`
+
+### 7️⃣ Variables & State
+*   **state:** Holds the current status.
+
+### 8️⃣ Block Logic
+1. Initialize System.
+2. Loop:
+    * Check Conditions.
+    * Update Output.
+    * Wait.
+
+### 9️⃣ Execution Flow (Plain English)
+The system continuously monitors inputs and updates the interface based on the logic defined.
+
+### 🔟 Generated Code (Reference Only)
+```python
+import time
+import machine
+
+# Setup
+# ...
+
+while True:
+    # Logic
+    time.sleep(0.1)
+```
+
+### 1️⃣1️⃣ Common Mistakes & Debug Tips
+*   **Power**: Ensure external power is connected if needed.
+
+### 1️⃣2️⃣ Try This Next
+*   Modify the timing parameters.
+
+---
+
+
+## 1️⃣ Project 265: Scrolling Text
+### 2️⃣ Learning Objective
+Explore advanced concepts in OLED using Scrolling Text.
+
+### 3️⃣ Concepts Introduced
+*   OLED Control
+*   Automation
+
+### 4️⃣ Hardware Required
+*   Raspberry Pi Pico
+*   SSD1306 OLED Display
+
+### 5️⃣ Wiring / Interfaces
+*   SDA -> GP0
+*   SCL -> GP1
+
+### 6️⃣ Blocks Used
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Show`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Draw Rect`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Print`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Clear`
+
+### 7️⃣ Variables & State
+*   **state:** Holds the current status.
+
+### 8️⃣ Block Logic
+1. Initialize System.
+2. Loop:
+    * Check Conditions.
+    * Update Output.
+    * Wait.
+
+### 9️⃣ Execution Flow (Plain English)
+The system continuously monitors inputs and updates the interface based on the logic defined.
+
+### 🔟 Generated Code (Reference Only)
+```python
+import time
+import machine
+
+# Setup
+# ...
+
+while True:
+    # Logic
+    time.sleep(0.1)
+```
+
+### 1️⃣1️⃣ Common Mistakes & Debug Tips
+*   **Power**: Ensure external power is connected if needed.
+
+### 1️⃣2️⃣ Try This Next
+*   Modify the timing parameters.
+
+---
+
+
+## 1️⃣ Project 266: Progress Bar
+### 2️⃣ Learning Objective
+Explore advanced concepts in OLED using Progress Bar.
+
+### 3️⃣ Concepts Introduced
+*   OLED Control
+*   Automation
+
+### 4️⃣ Hardware Required
+*   Raspberry Pi Pico
+*   SSD1306 OLED Display
+
+### 5️⃣ Wiring / Interfaces
+*   SDA -> GP0
+*   SCL -> GP1
+
+### 6️⃣ Blocks Used
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Show`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Draw Rect`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Print`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Clear`
+
+### 7️⃣ Variables & State
+*   **state:** Holds the current status.
+
+### 8️⃣ Block Logic
+1. Initialize System.
+2. Loop:
+    * Check Conditions.
+    * Update Output.
+    * Wait.
+
+### 9️⃣ Execution Flow (Plain English)
+The system continuously monitors inputs and updates the interface based on the logic defined.
+
+### 🔟 Generated Code (Reference Only)
+```python
+import time
+import machine
+
+# Setup
+# ...
+
+while True:
+    # Logic
+    time.sleep(0.1)
+```
+
+### 1️⃣1️⃣ Common Mistakes & Debug Tips
+*   **Power**: Ensure external power is connected if needed.
+
+### 1️⃣2️⃣ Try This Next
+*   Modify the timing parameters.
+
+---
+
+
+## 1️⃣ Project 267: Bitmap Icon
+### 2️⃣ Learning Objective
+Explore advanced concepts in OLED using Bitmap Icon.
+
+### 3️⃣ Concepts Introduced
+*   OLED Control
+*   Automation
+
+### 4️⃣ Hardware Required
+*   Raspberry Pi Pico
+*   SSD1306 OLED Display
+
+### 5️⃣ Wiring / Interfaces
+*   SDA -> GP0
+*   SCL -> GP1
+
+### 6️⃣ Blocks Used
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Show`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Draw Rect`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Print`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Clear`
+
+### 7️⃣ Variables & State
+*   **state:** Holds the current status.
+
+### 8️⃣ Block Logic
+1. Initialize System.
+2. Loop:
+    * Check Conditions.
+    * Update Output.
+    * Wait.
+
+### 9️⃣ Execution Flow (Plain English)
+The system continuously monitors inputs and updates the interface based on the logic defined.
+
+### 🔟 Generated Code (Reference Only)
+```python
+import time
+import machine
+
+# Setup
+# ...
+
+while True:
+    # Logic
+    time.sleep(0.1)
+```
+
+### 1️⃣1️⃣ Common Mistakes & Debug Tips
+*   **Power**: Ensure external power is connected if needed.
+
+### 1️⃣2️⃣ Try This Next
+*   Modify the timing parameters.
+
+---
+
+
+## 1️⃣ Project 268: Simple Menu
+### 2️⃣ Learning Objective
+Explore advanced concepts in OLED using Simple Menu.
+
+### 3️⃣ Concepts Introduced
+*   OLED Control
+*   Automation
+
+### 4️⃣ Hardware Required
+*   Raspberry Pi Pico
+*   SSD1306 OLED Display
+
+### 5️⃣ Wiring / Interfaces
+*   SDA -> GP0
+*   SCL -> GP1
+
+### 6️⃣ Blocks Used
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Show`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Draw Rect`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Print`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Clear`
+
+### 7️⃣ Variables & State
+*   **state:** Holds the current status.
+
+### 8️⃣ Block Logic
+1. Initialize System.
+2. Loop:
+    * Check Conditions.
+    * Update Output.
+    * Wait.
+
+### 9️⃣ Execution Flow (Plain English)
+The system continuously monitors inputs and updates the interface based on the logic defined.
+
+### 🔟 Generated Code (Reference Only)
+```python
+import time
+import machine
+
+# Setup
+# ...
+
+while True:
+    # Logic
+    time.sleep(0.1)
+```
+
+### 1️⃣1️⃣ Common Mistakes & Debug Tips
+*   **Power**: Ensure external power is connected if needed.
+
+### 1️⃣2️⃣ Try This Next
+*   Modify the timing parameters.
+
+---
+
+
+## 1️⃣ Project 269: Screen Saver
+### 2️⃣ Learning Objective
+Explore advanced concepts in OLED using Screen Saver.
+
+### 3️⃣ Concepts Introduced
+*   OLED Control
+*   Automation
+
+### 4️⃣ Hardware Required
+*   Raspberry Pi Pico
+*   SSD1306 OLED Display
+
+### 5️⃣ Wiring / Interfaces
+*   SDA -> GP0
+*   SCL -> GP1
+
+### 6️⃣ Blocks Used
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Show`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Draw Rect`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Print`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Clear`
+
+### 7️⃣ Variables & State
+*   **state:** Holds the current status.
+
+### 8️⃣ Block Logic
+1. Initialize System.
+2. Loop:
+    * Check Conditions.
+    * Update Output.
+    * Wait.
+
+### 9️⃣ Execution Flow (Plain English)
+The system continuously monitors inputs and updates the interface based on the logic defined.
+
+### 🔟 Generated Code (Reference Only)
+```python
+import time
+import machine
+
+# Setup
+# ...
+
+while True:
+    # Logic
+    time.sleep(0.1)
+```
+
+### 1️⃣1️⃣ Common Mistakes & Debug Tips
+*   **Power**: Ensure external power is connected if needed.
+
+### 1️⃣2️⃣ Try This Next
+*   Modify the timing parameters.
+
+---
+
+
+## 1️⃣ Project 270: Data Dashboard
+### 2️⃣ Learning Objective
+Explore advanced concepts in OLED using Data Dashboard.
+
+### 3️⃣ Concepts Introduced
+*   OLED Control
+*   Automation
+
+### 4️⃣ Hardware Required
+*   Raspberry Pi Pico
+*   SSD1306 OLED Display
+
+### 5️⃣ Wiring / Interfaces
+*   SDA -> GP0
+*   SCL -> GP1
+
+### 6️⃣ Blocks Used
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Show`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Draw Rect`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Print`
+🔹 **OLED**
+*   **Category:** OLED
+*   **Block:** `OLED Clear`
+
+### 7️⃣ Variables & State
+*   **state:** Holds the current status.
+
+### 8️⃣ Block Logic
+1. Initialize System.
+2. Loop:
+    * Check Conditions.
+    * Update Output.
+    * Wait.
+
+### 9️⃣ Execution Flow (Plain English)
+The system continuously monitors inputs and updates the interface based on the logic defined.
+
+### 🔟 Generated Code (Reference Only)
+```python
+import time
+import machine
+
+# Setup
+# ...
+
+while True:
+    # Logic
+    time.sleep(0.1)
+```
+
+### 1️⃣1️⃣ Common Mistakes & Debug Tips
+*   **Power**: Ensure external power is connected if needed.
+
+### 1️⃣2️⃣ Try This Next
+*   Modify the timing parameters.
+
+---
+
