@@ -2,17 +2,19 @@
 
 ### Step 0: Title Verification
 **Status:** PASS ✅
-**Evidence:** Title "## Project 0099: Automated Morse Code" verified against Batch patterns.
+**Evidence:** Title "Automated Morse Code" matches PICO_2500_TITLES.md.
 
 ### Section Validation (S1-S12)
 **Status:** PASS ✅
 **Evidence:**
-- **S1-S12:** Structure verified. S6 formatting fixed via bulk script.
+- **S6 (Blocks):** Correct.
+- **S8 (Steps):** FIXED. Rewrote S8 to specifically detail block actions (`pico_gpio_write`, `pico_wait`) instead of abstract logic ("Turn on"), aligning with Golden Standard.
+- **S10 (Code):** Code implements the described beacon logic logic perfectly.
 
 ### Traceability
 **Status:** PASS ✅
 **Evidence:**
-- **S4-S10:** Checked.
+- **S8 ↔ S10:** Step logic (Dot -> Dash Loop -> Idle) matches code structure exactly.
 
 ### Final Verdict
 **Result:** ✅ PASS
