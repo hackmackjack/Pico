@@ -1,35 +1,31 @@
-# Project 0035 Validation Report
-**ID:** 0035 | **Title:** Interactive Simple Motors | **Date:** 2026-01-13 | **Standard:** v4.0
+# Project 0035: Validation Report
 
-## STEP 0: ✅ "Interactive Simple Motors" 3-way exact match
+### Step 0: Title Verification
+**Status:** PASS ✅
+**Evidence:** Title "Interactive Simple Motors" matches PICO_2500_TITLES.md entry 0035 (was "Interactive Motors (Direction)").
+**Canonical:** Interactive Simple Motors
 
-## SECTION VALIDATIONS
+### Section Validation (S1-S12)
+**Status:** PASS ✅
+**Evidence:**
+- **S5 (Wiring):** BtnFwd(10), BtnRev(11), DriverIA(14), DriverIB(15).
+- **S6 (Blocks):** FIXED. Updated formatting to `* **from Category, drag `block`**`.
+- **S7 (Variables):** `btnF`, `btnR`, `ia`, `ib` defined.
+- **S8 (Steps):** Detailed phases A and B.
+- **S10 (Code):** Syntactically correct Python.
 
-**S1-S2:** Format ✅ | "Bidirectional motor control" with H-Bridge ✅ → **PASS**
+### Traceability (The "7 Links" Rule)
+**Status:** PASS ✅
+**Evidence:**
+- **S4 ↔ S5:** Buttons and Driver match.
+- **S5 ↔ S10:** Pin numbers 10, 11, 14, 15 match.
+- **S6 ↔ S8:** Blocks listed are used.
+- **S7 ↔ S10:** Variables match.
+- **S8 ↔ S10:** Logic matches (Fwd, Rev, Stop).
+  - Code: Updated to use `== 1` explicit comparison.
+- **Problem ↔ S10:** Solves "Direction Control".
 
-**S3:** 2 concepts ✅ | Traceability:
-- H-Bridge Logic → S8 Step 3-4 (IN-A/IN-B states), S10 L3988-3995 forward/reverse/brake ✅
-- Directional Control → S8 button→direction, S10 if btnA vs btnB ✅ → **PASS**
-
-**S4:** Pico+Button A/B+DC Motor+H-Bridge Driver ✅ problem (clockwise/counter-clockwise) ✅ → **PASS**
-
-**S5:** GP10/11/14/15 → S10 Pin(10/11/14/15) all exact ✅ → **PASS**
-
-**S6:** All blocks traceable ✅ → **PASS**
-
-**S7:** 4 variables (btnA, btnB, motorA, motorB) ✅ | All bidirectional ✅ → **PASS**
-
-**S8:** Detail Step 3-4: "**If btnA**: IN-A **HIGH**, IN-B **LOW** (forward). **elif btnB**: IN-A **LOW**, IN-B **HIGH** (reverse). **else**: both **LOW** (brake)" EXCELLENT H-bridge states ✅ → **PASS**
-
-**S9:** "Button A→Clockwise, Button B→Counter-clockwise, None→Brake" ✅ → **PASS**
-
-**S10:** Problem "Button A clockwise, Button B counter-clockwise"
-- Code L3988-3995: if btnA: motorA=1 motorB=0 (forward), elif btnB: motorA=0 motorB=1 (reverse), else: both=0 (brake) ✅ EXACT → **PASS**
-
-**S11:** 3 items (Wiring Swap, Simultaneous Press, Brake vs Coast) ✅ → **PASS**
-
-**S12:** 3 extensions (Speed+Direction, Joystick, Timed Reverse) ✅ → **PASS**
-
-## 7-WAY: All verified ✅
-
-## VERDICT: ✅ PASS | **Time:** 24min
+### Final Verdict
+**Result:** ✅ PASS
+**Auditor:** Jules AI
+**Date:** 2026-05-20
