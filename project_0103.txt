@@ -1,0 +1,121 @@
+## Project 0150: Mastering Smart Fan
+
+### 2. Learning Objective
+Explore Proportional Control (Introduction to PID logic). Learn how to map a temperature range to a variable speed range, creating a fan that "thinks" and adjusts its power precisely based on the need.
+
+### 3. Concepts Introduced
+*   **Proportional Speed Control**: The output is mathematically "Proportional" to the input error or value.
+*   **Slope Calculation**: Determining how much to change speed for every 1 degree of temperature change.
+*   **Dynamic Efficiency**: Saving power and reducing noise by only running the fan as fast as necessary.
+
+### 4. Hardware Required
+*   Raspberry Pi Pico
+*   Internal or External Temp Sensor
+*   PWM Motor Driver + Fan Motor
+*   Breadboard and jumper wires
+
+### 5. Wiring / Interfaces
+| Component | Pico Pin | Notes |
+| :--- | :--- | :--- |
+| **PWM Fan Driver** | GP15 | PWM Output |
+| **Temp Sensor** | ADC4 | Internal |
+
+### 6. Blocks Used
+* **from Loops, drag `pico_forever` (forever do)**
+* **from Smart Sensors, drag `pico_read_temp` (read temperature)**
+* **from Smart IO, drag `pico_pwm_write` (set PWM duty)**
+* **from Math, drag `math_map` (linear scaling)**
+* **from Variables, drag `variables_set` (set variable to)**
+
+### 7. Variables
+*   **fan** (Pin)
+*   **sensor** (ADC)
+*   **t** (Number)
+*   **duty** (Number)
+*   **c_factor** (Number)
+*   **reading** (Number)
+
+### 8. Step-by-Step Guide
+
+**A. Initialization Phase**
+1.  **Configure Pin**:
+    * **from **Smart IO**, setup **GP15** (Output) -> `fan`.
+    *   **Snap** into `start`.
+
+**B. Monitoring Phase**
+2.  **Start Loop**:
+    * **from **Loops**, drag `pico_forever`.
+3.  **Read Temp**:
+    * **from **Variables**, set `t` to **Smart Sensors** `pico_read_temp` (Celsius).
+
+**C. Brain Phase (The Math)**
+4.  **Calculate Effort**:
+    * **from **Math**, drag `math_map`. Map `t` from (20-30) to (30-100).
+    * **from **Variables**, set `duty` to Result.
+
+**D. Actuation Phase**
+5.  **Drive Fan**:
+    * **from **Smart IO**, drag `pico_pwm_write`. Pin `fan`, Duty `duty`.
+6.  **Wait**:
+    * **from **Smart IO**, drag `pico_wait`. Set to **1.0s**.
+    *   If **Variables** `t` < 25: From **Variables**, **Set** `s` = 0 (Total stop).
+    *   If **Variables** `t` > 35: From **Variables**, **Set** `s` = 1023 (100% blast).
+    *   If **Logic** (`t` is BETWEEN 25 and 35):
+        * **from **Math**, drag `math_map`.
+        *   **Apply**: Map **Variables** `t` from [25 to 35] into [200 to 1023]. (This creates the smooth ramp).
+
+**C. Drive Phase**
+3.  **Update Output**:
+    * **from **Smart IO**, drag `pico_pwm_write`.
+    *   **Set** GP15 duty to the variable `s` (drag from **Variables**).
+4.  **Log Data**:
+    * **from **Text**, **Print** "Temp: " + **Variables** `t` + " | Power: " + **Variables** `s`.
+
+### 9. Execution Flow
+1.  **Idle**: At 24C, the fan is silent and still.
+2.  **Start**: At 26C, the fan spins very slowly and quietly.
+3.  **React**: At 30C, the fan is at roughly 50% power, providing moderate cooling.
+4.  **Critical**: At 36C, the fan is roaring at maximum speed to combat the heat.
+
+### 10. Generated Code
+```python
+import machine
+import utime
+
+# Setup
+sensor = machine.ADC(4)
+fan = machine.PWM(machine.Pin(15))
+fan.freq(1000)
+c_factor = 3.3 / 65535
+
+while True:
+    # Read Temp
+    reading = sensor.read_u16() * c_factor
+    t = 27 - (reading - 0.706) / 0.001721
+
+    # Logic: 25-35C maps to 0-65535 duty
+    if t < 25:
+        duty = 0
+    elif t > 35:
+        duty = 65535
+    else:
+        # Linear Proportion
+        duty = int((t - 25) / (35 - 25) * 65535)
+
+    fan.duty_u16(duty)
+    print(f"Room: {t:.2f}C | Fan Power: {(duty/65535)*100:.1f}%")
+
+    utime.sleep(1)
+```
+
+### 11. Common Mistakes
+*   **Linear Start**: Fans usually need a "kickstart" (e.g. at least 20-30% duty) to overcome friction. If your mapping starts at 0, the fan might just hum without spinning until it hits 28C.
+*   **Update Frequency**: Don't update the PWM value 1000 times a second if the temperature only changes every few minutes. 1Hz (once per second) is plenty.
+
+### 12. Try This Next
+*   **Exponential Ramp**: Change the math so the fan speed grows much faster as it gets closer to 35C (Square the result before mapping).
+*   **Averaging**: Read the temperature 5 times and use the *average* value to make the fan speed changes even smoother.
+
+---
+
+# BATCH 16: Robotic Arm Basics 1 (Projects 0151-0160)
