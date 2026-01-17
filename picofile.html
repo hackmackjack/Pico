@@ -882,6 +882,12 @@
           "previousStatement": null, "nextStatement": null, "colour": 230
         },
 
+                {
+          "type": "pico_ticks_ms",
+          "message0": "Ticks (ms)",
+          "output": "Number", "colour": 120
+        },
+
         // --- SYSTEM & IOT ---
         {
           "type": "pico_system",
@@ -1791,6 +1797,9 @@ class GPS:
         const u = block.getFieldValue("UNIT");
         const v = block.getFieldValue("VAL");
         return `time.sleep${u === 's' ? '' : (u === 'ms' ? '_ms' : '_us')}(${v})\n`;
+      };
+      G["pico_ticks_ms"] = function (block) {
+        return [`time.ticks_ms()`, Blockly.Python.ORDER_FUNCTION_CALL];
       };
       G["pico_log"] = function (block) {
         const m = Blockly.Python.valueToCode(block, "MSG", Blockly.Python.ORDER_ATOMIC) || "''";
@@ -2808,6 +2817,7 @@ else: print('WiFi Connection Failed: Timeout')\n`;
     <block type="controls_flow_statements"></block>
   </category>
   <category name="Math" colour="230">
+    <block type="math_modulo"></block>
     <block type="math_number"></block>
     <block type="math_arithmetic"></block>
     <block type="math_random_int"></block>
@@ -2817,6 +2827,7 @@ else: print('WiFi Connection Failed: Timeout')\n`;
     <block type="text"></block>
     <block type="text_print"></block>
   </category>
+    <category name="Functions" custom="PROCEDURE" colour="290"></category>
   <category name="Variables" custom="VARIABLE" colour="330"></category>
   <category name="Lists" colour="260">
     <block type="lists_create_with">
@@ -2842,6 +2853,7 @@ else: print('WiFi Connection Failed: Timeout')\n`;
   </category>
   <sep></sep>
   <category name="Smart IO" colour="290">
+    <block type="pico_ticks_ms"></block>
     <block type="pico_try_except"></block>
     <block type="pico_run_delay"></block>
     <block type="pico_wait"></block>
